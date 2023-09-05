@@ -16,6 +16,7 @@ public class WebSettingsConfigWriter implements ConfigWriter {
         config.put("site.path", "http://localhost");
         config.put("static.content.path", "http://localhost");
         config.put("site.imaging.path", "http://localhost");
+        config.put("site.fimaging.path", "http://localhost");
 
         config.put("hotel.check.online", "true");
 

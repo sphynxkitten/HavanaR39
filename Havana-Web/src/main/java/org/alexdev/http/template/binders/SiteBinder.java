@@ -60,12 +60,12 @@ public class SiteBinder implements TemplateBinder {
         this.siteName = GameConfiguration.getInstance().getString("site.name");
         this.sitePath = GameConfiguration.getInstance().getString("site.path");
         this.staticContentPath = GameConfiguration.getInstance().getString("static.content.path");
-        this.furniImagerPath = "https://classichabbo.com/imager/furni";
 
         this.emailStaticPath = GameConfiguration.getInstance().getString("email.static.content.path");
         this.emailHotelName = StringUtils.capitalise(GameConfiguration.getInstance().getString("site.path").replace("https://", "").replace("http://", "").replace("/", ""));
 
         this.habboImagingPath = GameConfiguration.getInstance().getString("site.imaging.path");//"https://alex-dev.org";
+        this.furniImagerPath = GameConfiguration.getInstance().getString("site.fimaging.path");
 
         this.loaderGameIp = GameConfiguration.getInstance().getString("loader.game.ip");
         this.loaderGamePort = GameConfiguration.getInstance().getString("loader.game.port");
